@@ -25,9 +25,9 @@ class ProfileFragment : Fragment() {
 
         // ตั้งค่าข้อมูลโปรไฟล์ (ตัวอย่าง)
         binding.profileImage.setImageResource(R.drawable.ic_user_avatar) // รูปโปรไฟล์
-        binding.profileName.text = "Natthaphon Rotprasert"
-        binding.profileEmail.text = "Natthaphon.ro@ku.th"
-        binding.profileAddress.text = "30/201 หมู่ 7 ถนนตัวอย่าง ตำบล/แขวง ตัวอย่าง เขต/อำเภอ จังหวัด 20110"
+        binding.profileName.text = "Radathip Peansawanglap"
+        binding.profileEmail.text = "radathip.p@ku.th"
+        binding.profileAddress.text = "369/96 หมู่ 2 ถนนตัวอย่าง ตำบล/แขวง ตัวอย่าง เขต/อำเภอ จังหวัด 20110"
     }
 
     override fun onDestroyView() {
