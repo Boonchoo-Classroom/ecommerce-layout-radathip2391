@@ -45,9 +45,9 @@ class HomeFragment : Fragment() {
         recommendedRecyclerView = view.findViewById(R.id.recommendedProductsRecycler)
         recommendedRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
 
-        recommendedProducts.add(ProductModel("เสื้อเชิ้ต", "เนื้อผ้าซาติน ใส่สะบายไม่ต้องรีด", 150.00, R.drawable.ic_pen))
-        recommendedProducts.add(ProductModel("กางเกงทรงกระบอก", "เนื้อผ้าบาร์บี้ทิ้งตัว", 199.00, R.drawable.ic_ruler))
-        recommendedProducts.add(ProductModel("กระโปรงยีนส์", "กระโปรงทรง A สไตล์เกาหลี", 170.00, R.drawable.ic_notebook))
+        recommendedProducts.add(ProductModel(" ASUS DUAL GEFORCE RTX", "4060 ram 8 gb", 11800.00, R.drawable.ic_pen))
+        recommendedProducts.add(ProductModel("Monitor ACER XV270U Z1BMIIPRX", "ขนาด 27 นิ้ว 270Hz", 8400.00, R.drawable.ic_ruler))
+        recommendedProducts.add(ProductModel("Cpu Amd Ryzen 7 5700", "8 Cores 16 Threads", 5490.00, R.drawable.ic_notebook))
 
         recommendedAdapter = ProductAdapter(recommendedProducts) { updateFavorites() }
         recommendedRecyclerView.adapter = recommendedAdapter
@@ -56,9 +56,9 @@ class HomeFragment : Fragment() {
         promotionsRecyclerView = view.findViewById(R.id.promotionsRecycler)
         promotionsRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
 
-        promotionsList.add(ProductModel("ชุดเซตเสื้อ+กางเกง", "เส้ื้อเชิ้ต, กางเกงทรงกระบอก", 299.00, R.drawable.bundle_a))
-        promotionsList.add(ProductModel("กางเกงทรงกระบอก+เข็มขัด", "กางเกงทรงกระบอก, เข็มขัด", 210.00, R.drawable.bundle_b))
-        promotionsList.add(ProductModel("คูปองส่วนลด", "รับคูปองส่วนลด 50% สูงสุด100บาท ขั้นต่ำ100บาท", 0.00, R.drawable.bundle_c))
+        promotionsList.add(ProductModel("ซื้อ 1 แถม 1   ", "คอมประกอบ, เมาส์", 17000.00, R.drawable.bundle_a))
+        promotionsList.add(ProductModel("โน๊ตบุค + ของแถม", "ปลั๊กไฟ, เมาส์", 15000.00, R.drawable.bundle_b))
+        promotionsList.add(ProductModel("คูปองส่วนลด", "รับคูปองส่วนลด 30% สูงสุด3000บาท ", 0.00, R.drawable.bundle_c))
 
         promotionsAdapter = ProductAdapter(promotionsList) { updateFavorites() }
         promotionsRecyclerView.adapter = promotionsAdapter
